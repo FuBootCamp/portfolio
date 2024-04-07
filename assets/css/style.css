@@ -1,0 +1,108 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial;
+}
+
+header {
+  padding: 10px;
+  text-align: center;
+  background-color: lightgrey;
+  color:black;
+}
+
+nav {  
+  background-color:steelblue;
+  text-align: center;
+  display: flex;
+}
+
+nav a { 
+  color: white;
+  padding: 10px; 
+  text-decoration: none;
+}
+
+main{
+  display: flex;
+}
+
+#about-contact-me-container{
+  background-color:lightgoldenrodyellow;
+  width: 100%;
+  min-width: 300px;
+  text-align: center;
+}
+
+.information-style{
+  padding: 50px;
+  font-size: 32px;
+}
+
+.information-style p{
+  padding: 4px;
+}
+
+.information-style img{
+  width: 250px;
+  padding: 20px;
+}
+
+#img-link-main-app header {
+  width: 700px;
+  padding: 8px; 
+  background: steelblue;
+  color: #fff;
+}
+
+#img-link-main-app img {
+  width: 700px;
+}
+
+#img-link-main-app img:hover {
+  border-radius: 8%;
+  border-style:solid;
+  border-color: steelblue ;
+  border-width: 8px;
+}
+
+.img-link-others-apps {
+  display: flex;
+  flex-wrap: wrap;
+  justify-items: center;
+}
+
+.titled-image header{
+  width: 350px;
+  padding: 8px;
+  background: steelblue;
+  color: #fff;
+}
+
+.titled-image img{
+  width: 350px;
+}
+
+.titled-image img:hover {
+  border-radius: 8%;
+  border-style:solid;
+  border-color: steelblue ;
+  border-width: 8px;
+}
+
+footer{
+    background-color:steelblue;
+    padding: 2%;
+    text-align: center;
+    color: white;
+}
+ 
+@media screen and (max-width: 768px) {
+  main, nav {
+    flex-direction: column;
+  }
+}   
