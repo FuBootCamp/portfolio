@@ -15,6 +15,7 @@ header {
   color:black;
 }
 
+/* definition of style for the menu bar  */
 nav {  
   background-color:steelblue;
   text-align: center;
@@ -27,6 +28,8 @@ nav a {
   text-decoration: none;
 }
 
+/* definition of flex move for main sections */
+
 main{
   display: flex;
 }
@@ -38,9 +41,11 @@ main{
   text-align: center;
 }
 
+/* definition of style for text and pict of the about and contact me sections  */
+
 .information-style{
-  padding: 50px;
-  font-size: 32px;
+  padding: 20px;
+  font-size: 24px;
 }
 
 .information-style p{
@@ -49,18 +54,20 @@ main{
 
 .information-style img{
   width: 250px;
-  padding: 20px;
+  padding: 10px;
 }
 
+/* definition of style for the big picts  */
+
 #img-link-main-app header {
-  width: 700px;
+  width: 480;
   padding: 8px; 
   background: steelblue;
   color: #fff;
 }
 
 #img-link-main-app img {
-  width: 700px;
+  width: 480px;
 }
 
 #img-link-main-app img:hover {
@@ -70,6 +77,8 @@ main{
   border-width: 8px;
 }
 
+/* definition of flex move style for small picts  */
+
 .img-link-others-apps {
   display: flex;
   flex-wrap: wrap;
@@ -77,14 +86,14 @@ main{
 }
 
 .titled-image header{
-  width: 350px;
+  width: 240;
   padding: 8px;
   background: steelblue;
   color: #fff;
 }
 
 .titled-image img{
-  width: 350px;
+  width: 240px;
 }
 
 .titled-image img:hover {
@@ -93,6 +102,8 @@ main{
   border-color: steelblue ;
   border-width: 8px;
 }
+
+/* footer and media screen */
 
 footer{
     background-color:steelblue;
